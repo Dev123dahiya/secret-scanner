@@ -1,0 +1,6 @@
+[
+  {"id": "CVE-2020-14343", "package": "PyYAML", "introduced": "0", "fixed": "5.4", "summary": "Arbitrary code execution when loading untrusted YAML with full_load or FullLoader"},
+  {"id": "CVE-2023-32681", "package": "requests", "introduced": "2.3.0", "fixed": "2.31.0", "summary": "Proxy-Authorization header leaked to the destination server on HTTPS redirects"},
+  {"id": "CVE-2021-33503", "package": "urllib3", "introduced": "0", "fixed": "1.26.5", "summary": "Denial of service from catastrophic regex backtracking when parsing URL authority"},
+  {"id": "CVE-2020-28493", "package": "Jinja2", "introduced": "0", "fixed": "2.11.3", "summary": "Regular expression denial of service in the urlize filter"}
+]
