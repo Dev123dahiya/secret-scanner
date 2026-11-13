@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secret-scanner"
+version = "0.1.0"
+description = "Find leaked credentials and vulnerable dependencies before they ship: pattern and entropy detection, baselines, SARIF output and a CI exit code"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools]
+packages = ["secretscan"]
